@@ -1,0 +1,46 @@
+[05-Sep-2023 13:06:27 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 7
+[05-Sep-2023 20:50:33 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 20:53:06 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 20:59:24 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:02:32 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:10:32 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:10:36 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:10:53 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:11:16 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:13:16 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:13:29 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:13:37 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 21:18:33 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[05-Sep-2023 22:03:44 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[10-Sep-2023 22:33:59 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[10-Sep-2023 22:34:08 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[12-Sep-2023 15:26:37 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[12-Sep-2023 15:27:07 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[24-Oct-2023 17:36:39 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[24-Oct-2023 17:36:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[24-Oct-2023 17:46:06 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[24-Oct-2023 17:46:06 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[24-Oct-2023 17:46:13 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[24-Oct-2023 17:46:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[24-Oct-2023 17:49:08 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[24-Oct-2023 17:49:08 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[24-Oct-2023 17:50:41 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[24-Oct-2023 17:50:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[25-Oct-2023 21:21:28 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[25-Oct-2023 21:21:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[25-Oct-2023 21:22:07 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[25-Oct-2023 21:22:07 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[25-Oct-2023 21:22:24 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[25-Oct-2023 21:22:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[26-Oct-2023 22:33:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[26-Oct-2023 22:33:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[27-Oct-2023 13:10:17 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[27-Oct-2023 13:10:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[31-Oct-2023 12:00:51 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[31-Oct-2023 12:00:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[03-Nov-2023 21:36:34 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 15
+[03-Nov-2023 21:36:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 16
+[13-Nov-2023 00:37:24 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[18-Nov-2023 16:39:04 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[18-Nov-2023 16:39:33 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3
+[14-Feb-2024 11:00:43 Asia/Kolkata] PHP Notice:  Undefined index: booking in /home/stayvers/public_html/PHP_Kit/CUSTOM_CHECKOUT_FORM_KIT/dataFrom.php on line 3

@@ -1,0 +1,291 @@
+.main-wrapper {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+
+    .main-wrapper-con {
+        .main-area-con {
+            // padding: 0 30px;
+            // padding-bottom: 30px;
+            z-index: 1;
+            position: relative;
+            min-height: 100vh;
+            // background: url("../videos/bg-video.mp4");
+            background-image: url("../images/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            &::before {
+                position: absolute;
+                content: "";
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: black;
+                opacity: 40%;
+            }
+
+            .head-style {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                position: inherit;
+                z-index: 2;
+                padding-top: 10px;
+
+                // @media (max-width:768px) {
+                //     flex-direction: column;
+                // }
+
+                .logo-con {
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .logo {
+                        width: 150px;
+                        padding: 0;
+
+                        .logo-img {
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                }
+
+                .tabs {
+                    width: 100%;
+                    margin: 0 30px;
+                    // background-color: rgba(255, 255, 255, 0.1);
+                    border-radius: 15px;
+                    padding: 0;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+
+                    @media (max-width:768px) {
+                        margin-bottom: 15px !important;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    @media (max-width:576px) {
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .tab-style {
+                        display: flex;
+                        width: fit-content;
+                        margin-bottom: 15px;
+                        
+                        color: white;
+
+                        @media (min-width:576px) and (max-width:768px) {
+                            padding: 5px !important;
+                        }
+
+                        .tab-left {
+                            font-size: 20px;
+                            width: 25px;
+                            height: 25px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 5px;
+                        }
+
+                        .tab-right {
+                            margin-top: 10px;
+                            width: 100%;
+                            }
+                        
+                        h5{
+                            font-size: 13px;
+                        }
+                        
+                    }
+                }
+
+                .btn-con {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0;
+                }
+            }
+
+           
+
+                .body-section {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 30px 0;
+
+                    @media (max-width:768px) {
+                        flex-direction: column;
+                        width: auto;
+                    }
+
+                    .box-style {
+                        display: flex;
+                        padding: 30px;
+                        background: white;
+                        border-radius: 30px;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 15px;
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
+
+                        @media (max-width:768px) {
+                            width: 100%;
+                            padding: 10px;
+                            margin-bottom: 10px;
+                            margin-right: 0;
+                        }
+                    }
+                }
+
+                .body-foot {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 70%;
+
+                    @media (max-width:576px) {
+                        flex-direction: column;
+                    }
+
+                    @media (max-width:768px) {
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        margin-right: 0;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .plans-con {
+            .plans-head {
+                h1 {
+                    text-align: center;
+                }
+            }
+        }
+
+        .ychoose-con {
+            background-color: $bg-blue
+        }
+
+        .ychoose-head {
+            .ychoose-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .ychoose-left-head {
+                    h1 {}
+                }
+
+                .ychoose-left-body {
+                    padding: 25px 0;
+
+                    &:first-child {
+                        padding-top: 50px;
+                    }
+                }
+            }
+
+            .ychoose-right {
+                .ychoose-img {
+                    padding: 15px;
+
+                    @media (max-width:576px) {
+                        width: 100%;
+                    }
+
+                    .ychoose-img-con {
+                        border-radius: 15px;
+                        overflow: hidden;
+
+                        img {
+                            object-fit: cover;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+                @media (max-width:576px) {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .activities-con {
+            background-image: url(https://www.bagpack2go.com/admin/webroot/img/uploads/blog/1626252616_675961-treking-and-hiking-to-mountain-guide.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: "";
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: $white;
+                opacity: 40%;
+            }
+        }
+
+        .footer-con {
+            background-color: $footer-black;
+
+            .footer-head {
+                .footer-head-btn {
+                    margin-left: auto;
+                }
+            }
+
+            .footer-body {
+                padding-top: 30px;
+                padding: 30px 0;
+                border-bottom: 1px solid $btn-grey;
+
+                .logo-con {
+                    width: 150px;
+                    margin-bottom: 15px;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+
+            .footer-foot {
+                padding-top: 30px;
+                color: $btn-grey;
+
+                a {
+                    color: $btn-grey;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

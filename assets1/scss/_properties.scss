@@ -1,0 +1,137 @@
+.filter-search {}
+
+.filter-search-area {
+    position: relative;
+    // height: 100vh;
+    min-height: 100vh;
+    background: $bg-blue;
+    overflow: hidden;
+
+    .left-sort-area {
+        position: sticky;
+        top: 0;
+        height: 100%;
+        width: 30%;
+        padding-left: 0;
+        @media (max-width:576px) {
+            width: 100%;
+        }
+        .top-map-con {
+            width: 100%;
+            height: 130px;
+            background-color: salmon;
+            margin-bottom: 15px;
+            border-radius: 15px;
+            overflow: hidden;
+            @media (max-width:576px) {
+                width: 100%;
+                height: 100px;
+            }
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .filter-box {
+            background-color: $white;
+            width: 100%;
+            min-height: 100vh;
+            // height: calc(100% - 150px);
+            border-radius: 15px;
+            @media (max-width:576px) {
+                height: 250px;
+                min-height: auto;
+            }
+
+            .filter-head {
+                padding: 20px;
+                border-bottom: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .header {}
+
+                .clear-btn {
+                    cursor: pointer;
+                }
+            }
+
+            .filter-body {
+                padding: 20px;
+                height: calc(100% - 70px);
+                overflow: auto;
+
+                .filter-ul {
+                    height: 100%;
+                    overflow: auto;
+                    .check-box-style {
+                        display: flex;
+                        align-items: center;
+
+                        .check-input {
+                            width: 16px;
+                            height: 16px;
+                            cursor: pointer;
+                            border: 1px solid $black;
+                        }
+
+                        .check-label {
+                            padding-left: 10px;
+
+                            h5 {
+                                color: $black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        margin-left: calc(30% + 50px);
+    padding-left: 30px;
+    position: absolute;
+    top: 20px;
+    height: calc(100% - 45px);
+    overflow: auto;
+    left: 0;
+    right: 50px;
+    @media (max-width:576px) {
+        margin-left: 0;
+        padding-left: 0;
+        position: relative;
+        top: 30px;
+        height: 500px;
+        overflow: auto;
+        right: auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+        .tab-pan {}
+    }
+
+    .places-list {
+        width: 100%;
+        border-radius: 10px;
+        background-color: $white;
+        padding: 15px;
+        min-height: 150px;
+        margin: 15px 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .search-head {
+        margin-bottom: 30px;
+    }
+}
